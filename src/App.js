@@ -81,7 +81,9 @@ class App extends React.Component {
           this.saveStateToLocalStorage();
         }
       );
-      if (currentMove) this.reward.rewardMe();
+      if (currentMove.figure !== null){
+        this.reward.rewardMe();
+      }
     } else {
       console.log('not allowed move');
     }
