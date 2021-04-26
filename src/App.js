@@ -3,6 +3,7 @@ import './App.css';
 import Players from './Players';
 import PointsTable from './PointsTable';
 import { showFigure } from './common';
+import Reward from 'react-rewards';
 
 const INITIAL_STATE = {
   currentPlayerIndex: 0,
@@ -80,6 +81,7 @@ class App extends React.Component {
           this.saveStateToLocalStorage();
         }
       );
+      if (currentMove) this.reward.rewardMe();
     } else {
       console.log('not allowed move');
     }
@@ -333,12 +335,36 @@ class App extends React.Component {
         </div>
         <div className="row justify-content-center">
           <div className="col-md-6 align-self-center">
+            <div className="text-center">
+              <Reward
+                type={'confetti'}
+                config={{
+                  fakingRequest: false,
+                  angle: 90,
+                  decay: 0.95,
+                  spread: 90,
+                  startVelocity: 40,
+                  elementCount: 500,
+                  elementSize: 8,
+                  lifetime: 400,
+                  zIndex: 10,
+                  springAnimation: false
+                }}
+                ref={(ref) => {
+                  this.reward = ref;
+                }}
+              >
+                <div></div>
+              </Reward>
+            </div>
             <PointsTable moves={moves} players={players} />
             <button
               type="button"
               className="btn btn-outline-info"
               onClick={() => {
-                window.confirm('Are you sure? You will permanently remove game data.') && this.resetGame();
+                window.confirm(
+                  'Are you sure? You will permanently remove game data.'
+                ) && this.resetGame();
               }}
             >
               reset
