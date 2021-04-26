@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/triomino-calculator/static/css/main.cadc13f7.chunk.css",
+    "main.js": "/triomino-calculator/static/js/main.8ffcb03d.chunk.js",
+    "main.js.map": "/triomino-calculator/static/js/main.8ffcb03d.chunk.js.map",
+    "runtime-main.js": "/triomino-calculator/static/js/runtime-main.51576142.js",
+    "runtime-main.js.map": "/triomino-calculator/static/js/runtime-main.51576142.js.map",
+    "static/js/2.4272e190.chunk.js": "/triomino-calculator/static/js/2.4272e190.chunk.js",
+    "static/js/2.4272e190.chunk.js.map": "/triomino-calculator/static/js/2.4272e190.chunk.js.map",
+    "static/js/3.1a9b58ae.chunk.js": "/triomino-calculator/static/js/3.1a9b58ae.chunk.js",
+    "static/js/3.1a9b58ae.chunk.js.map": "/triomino-calculator/static/js/3.1a9b58ae.chunk.js.map",
+    "index.html": "/triomino-calculator/index.html",
+    "static/css/main.cadc13f7.chunk.css.map": "/triomino-calculator/static/css/main.cadc13f7.chunk.css.map",
+    "static/js/2.4272e190.chunk.js.LICENSE.txt": "/triomino-calculator/static/js/2.4272e190.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51576142.js",
+    "static/js/2.4272e190.chunk.js",
+    "static/css/main.cadc13f7.chunk.css",
+    "static/js/main.8ffcb03d.chunk.js"
+  ]
+}
