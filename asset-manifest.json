@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/triomino-calculator/static/css/main.5c45fdc1.chunk.css",
-    "main.js": "/triomino-calculator/static/js/main.f307b38d.chunk.js",
-    "main.js.map": "/triomino-calculator/static/js/main.f307b38d.chunk.js.map",
+    "main.js": "/triomino-calculator/static/js/main.e4df27b6.chunk.js",
+    "main.js.map": "/triomino-calculator/static/js/main.e4df27b6.chunk.js.map",
     "runtime-main.js": "/triomino-calculator/static/js/runtime-main.c57ca092.js",
     "runtime-main.js.map": "/triomino-calculator/static/js/runtime-main.c57ca092.js.map",
     "static/js/2.72d11b6e.chunk.js": "/triomino-calculator/static/js/2.72d11b6e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c57ca092.js",
     "static/js/2.72d11b6e.chunk.js",
     "static/css/main.5c45fdc1.chunk.css",
-    "static/js/main.f307b38d.chunk.js"
+    "static/js/main.e4df27b6.chunk.js"
   ]
 }
